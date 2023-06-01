@@ -1,0 +1,271 @@
+header{
+    display: flex;
+    justify-content: space-around; 
+    background-color: white;
+    position: sticky;
+    top: 0;
+   
+}
+.nav-bar{
+    display: flex;
+
+}
+.nav-bar nav{
+    margin-right: 25px;
+    font-size: larger;
+    margin-top: 10px;
+
+}
+.nav1{
+    color: rgb(65, 204, 204);
+}
+.nav1:hover{
+    cursor: pointer;
+}
+.nav2{
+    color: grey;
+}
+.nav2:hover{
+    color: rgb(65, 204, 204);
+    cursor: pointer;
+}
+.nav3{
+    color: grey;
+}
+.nav3:hover{
+    color: rgb(65, 204, 204);
+    cursor: pointer;
+}
+.img1{
+    margin-left:  47%;
+    margin-top: 60px;
+}
+h1{
+    color: rgb(65, 204, 204);
+    margin-left: 26%;
+    font-size: 30px;
+    font-style: normal;
+}
+.pp1{
+    display: flex; 
+   font-size: 21px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-style: normal;
+    margin-top: 45px;
+    color: grey;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 180px;
+    color: white;
+    font-size: larger;
+    
+}
+.patients{
+    background-color: rgb(65, 204, 204);
+    height: 320px;
+    width: 280px; 
+    border-radius: 5%;
+}
+.doctors{
+    background-color: rgb(70, 70, 206);
+    height: 320px;
+    width: 280px; 
+    border-radius: 5%;
+}
+.clinics{
+    background-color: rgb(14, 14, 105);
+    height: 320px;
+    width: 280px; 
+    border-radius: 5%;
+}
+.div1 h2{
+    margin-left: 40px;
+}
+.div1 h4{
+    margin-left: 40px;
+    
+}
+.img2{
+    margin-left: 39px;
+    margin-top: 25px;
+}
+.img3{
+    margin-left: 39px;
+    margin-top: 25px;
+}
+.img4{
+    margin-left: 39px;
+    margin-top: 25px;
+}
+.div2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    height: 400px;
+    margin-left: 200px;
+    margin-right: 140px;
+    
+}
+.div2 h3{
+    color: rgb(65, 204, 204);
+    font-size:30px ;
+    
+}
+.div3{
+    background-color: rgb(119, 196, 196);
+    display: flex;
+    width: 100%; 
+    color: grey;
+}
+.div31{
+    background-color: white;
+    height: 260px;
+    width: 210px;
+    margin-right: 20px;
+    margin-top: 40px;
+    text-align: center;
+    color: grey;
+    border-radius: 5%;
+
+}
+.div32{
+    background-color: white;
+    height: 260px;
+    width: 210px; 
+    margin-top: 20px;
+    text-align: center;
+    color: grey;
+    border-radius: 5%;
+    
+}
+.div33{
+    background-color: white;
+    height: 260px;
+    width: 210px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: grey;
+    border-radius: 5%;
+}
+.div34{
+    background-color: white; 
+    height: 260px;
+    width: 210px;
+    text-align: center;
+    color: grey;
+    border-radius: 5%;
+}
+.div30{
+    margin-right: 100px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.div300{
+    display: flex;
+    flex-wrap: wrap;
+}
+.div3 h3{
+    color: rgb(70, 70, 206);
+}
+.div3 h2{
+    color: rgb(70, 70, 206);
+    font-size: xx-large;
+}
+.img31{
+    margin-top: 28px;
+}
+.img32{
+    margin-top: 48px;
+}
+.img33{
+    margin-top: 48px;
+}
+.img34{
+    margin-top: 48px;
+}
+.div4 h2{
+    text-align: center;
+    color: rgb(65, 204, 204);
+    margin-top: 110px;
+    font-size: xx-large;
+}
+.div4 p{
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: large;
+    color: grey;
+}
+
+
+.div5{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 60px 30px;
+    margin-top: 110px;
+}
+.div51 h4{
+    color: grey;
+    margin-left: 10px ;
+    font-size: larger;
+}
+.div52{
+    display: flex;
+    justify-content: space-between;
+}
+.div5 button{
+    height: 21px;
+    font-size: 10px;
+    margin-top: 24px;
+    background-color: rgb(46, 46, 146);
+    border-color: rgb(46, 46, 146);
+    color: white;
+}
+.div51:hover{
+    color: white;
+  box-shadow: 1px 1px 2px white, 0 0 5px gray, 0 0 5px rgb(71, 69, 69);
+  margin: 5px;
+  cursor: pointer;
+}
+.div51 button:hover{
+    cursor: pointer;
+    background-color:rgb(96, 96, 241) ;
+}
+.div6 h3{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(51, 50, 50);
+}
+.div6 button{
+    margin-left: 500px;
+    background-color: rgb(46, 46, 146);
+    border-color: rgb(46, 46, 146);
+    color: white;
+    height: 25px;
+    
+}
+.div6 button:hover{
+    cursor: pointer;
+    background-color:rgb(96, 96, 241) ;
+}
+footer{
+    color: grey;
+    text-align: center;
+    margin-top: 100px;
+}
+span{
+    color: rgb(46, 46, 146);
+    
+}
+span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
